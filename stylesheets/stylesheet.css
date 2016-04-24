@@ -29,6 +29,7 @@ li {
   line-height: 1.4 ;
 }
 
+
 /* Header, <header>
    header   - container
    h1       - project name
@@ -57,6 +58,7 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
+
 header h1:before {
   content: "./ ";
   font-size: 24px;
@@ -67,6 +69,24 @@ header h2 {
   font-weight: 300;
   color: #666;
 }
+
+
+
+@media screen and (max-width: 980px) {
+  header .container {
+    width: 250px;
+    margin: auto;
+  }
+  header h1 {
+    font-size: 23px;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+}
+
+
+
 
 #downloads .btn {
   display: inline-block;
@@ -123,6 +143,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
   margin: 0 0 5px 0;
 }
+
+@media screen and (max-width: 980px) {
+  #main_content h3 {
+    font-size: 16px;
+  }
+  #main_content li a {
+    font-size: 14px;
+  }
+  #main_content li {
+    font-size: 14px;
+  }
+}
+
 
 dt {
   font-style: italic;
