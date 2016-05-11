@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("/images/bkg.png") 0 0;
+  background: #fff;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -29,7 +29,7 @@ li {
    h2       - project description
 */
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: #151515 url("/images/bkg.png") 0 0;
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
